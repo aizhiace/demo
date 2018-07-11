@@ -29,12 +29,8 @@ public class Client {
 //        System.out.println(list.stream().min((param1, param2) -> (int) param1 < (int) param2 ? 1 : -1).get());
 //        System.out.println(list.stream().reduce((param1, param2) -> (int) param1 + (int) param2).get());
 
-        Optional<User> optUser = Optional.ofNullable(new User("Mike",1,"NewYork"));
-        Optional<Integer> optAge = optUser.map(User::getAge);
-        System.out.println(optAge.get());
-        System.out.println("------------------------------");
 //        list.forEach(i -> System.out.println(i));
-        list.forEach(System.out::println);
+//        list.forEach(System.out::println);
 }
 
 }
