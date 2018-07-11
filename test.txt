@@ -1,5 +1,4 @@
 test
 idea test
 test merge
-dev2
-dev22
+dev
